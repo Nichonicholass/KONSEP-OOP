@@ -1,29 +1,29 @@
-class Animal {
-    void makeSound() {
-        System.out.println("Some sound");
+class Hewan {
+    public void suara() {
+        System.out.println("Hewan mengeluarkan suara");
     }
 }
 
-class Dog extends Animal {
+class Kucing extends Hewan {
     @Override
-    void makeSound() {
-        System.out.println("Woof");
+    public void suara() {
+        System.out.println("Kucing nginnging");
     }
 }
 
-class Cat extends Animal {
+class Anjing extends Hewan {
     @Override
-    void makeSound() {
-        System.out.println("Meow");
+    public void suara() {
+        System.out.println("Anjing gaga");
     }
 }
 
 public class Main {
     public static void main(String[] args) {
-        Animal myDog = new Dog();
-        Animal myCat = new Cat();
+        Hewan hewan1 = new Kucing();  
+        Hewan hewan2 = new Anjing();  
 
-        myDog.makeSound(); 
-        myCat.makeSound(); 
+        hewan1.suara();  
+        hewan2.suara();  
     }
 }
