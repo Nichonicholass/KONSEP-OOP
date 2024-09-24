@@ -10,7 +10,7 @@ class Pass extends Password {
     }
 }
 
-public class Main {
+public class abstract {
     public static void main(String[] args) {
         Password myPass = new Pass();
         myPass.isiPassword(); 
