@@ -18,7 +18,7 @@ class Anjing extends Hewan {
     }
 }
 
-public class Main {
+public class polymorphism {
     public static void main(String[] args) {
         Hewan hewan1 = new Kucing();  
         Hewan hewan2 = new Anjing();  
