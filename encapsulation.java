@@ -26,7 +26,7 @@ class Person {
     }
 }
 
-public class Main {
+public class encapsulation {
     public static void main(String[] args) {
         Person person = new Person();
         person.setName("Adit");
